@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "homepage": "https://github.com/1237jwells"
   },
   "dependencies": {
