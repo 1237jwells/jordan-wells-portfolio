@@ -1,0 +1,55 @@
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--card-background);
+  border: 1px solid var(--border-color);
+  border-radius: 25px; /* Make it pill-shaped */
+  padding: 1rem 1.5rem; /* Add padding */
+  margin: 0.5rem; /* Space between pills */
+  transition: all 0.3s ease;
+}
+
+.stat-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.stat-number {
+  font-size: 2rem; /* Adjust size as needed */
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.stat-label {
+  font-size: 1rem; /* Adjust size as needed */
+  color: var(--text-color);
+}
+
+
+
+.social-links {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: var(--primary-color);
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+}
